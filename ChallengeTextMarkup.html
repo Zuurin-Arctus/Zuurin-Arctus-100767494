@@ -7,7 +7,20 @@
         <style>
         body {
         font: 1.2em / 1.5 system-ui;
-    }
+    	}
+
+	.sender-column {
+	  text-align: right;
+	}
+
+	h1 {
+  	font-size: 1.5em;
+	}
+
+	h2 {
+  	font-size: 1.3em;
+	}
+</stye>
 </head>
 
 <!--
@@ -18,14 +31,18 @@ This is the Lab 1 page for Web Development - Fundamentals
 (INFT1206)
 -->
 
+
+
 <body>
-<strong>Dr. Eleanor Gaye</strong>
-Awesome Science faculty
-University of Awesome
-Bobtown, CA 99999,
-USA
-<strong>Tel:</strong> 123-456-7890
+<address class = "sender-column">
+<strong>Dr. Eleanor Gaye</strong><br />
+Awesome Science faculty<br />
+University of Awesome<br />
+Bobtown, CA 99999,<br />
+USA<br />
+<strong>Tel:</strong> 123-456-7890<br />
 <strong>Email:</strong> no_reply@example.com
+</address>
 
 <time datetime="2016-01-20"> 20 January 2016 </time>
 
@@ -35,6 +52,7 @@ USA
 Dover, CT9 XXX<br/ >
 UK
 </address>
+
 <h1>Re: Eileen Dover university application</h1>
 
 <p>Dear Eileen,</p>
@@ -42,7 +60,7 @@ UK
 <p>
 Thank you for your recent application to join us at the University of
 Awesome's science faculty to study as part of your
-PhD (Doctor of Philosophy) next year. I will answer your
+<abbr>PhD</abbr> (Doctor of Philosophy) next year. I will answer your
 questions one by one, in the following sections.
 </p>
 
@@ -59,10 +77,10 @@ semester; the start dates for each one are as follows:
     First semester: <time datetime="09-09-2016">9 September 2016</time>
     </li>
         <li>
-        Second semester: 15 January 2017
+        Second semester: <time datetime="01-15-2017">15 January 2017</time>
         </li>
             <li>
-            Third semester: 2 May 2017
+            Third semester: <time datetime="02-05-2017">2 May 2017</time>
             </li>
 </ul>
 
@@ -80,14 +98,17 @@ priority:
 </p>
 
 <ul>
-	<li>Turning H2O into wine, and the health benefits of Resveratrol
-(C14H12O3).
+	<li>Turning H<sub>2</sub>O into wine, and the health benefits of Resveratrol
+(C<sub>14</sub>H<sub>12O</sub><sub>3</sub>).</l1>
 
 	<li>Measuring the effect on performance of funk bass players at temperatures
 exceeding 30°C (86°F), when the audience size exponentially increases
-(effect of 3 × 103 increasing to 3 × 104).
-	<li>HTML, Hypertext Markup Language, and CSS,
+(effect of 3 × 103 increasing to 3 × 104).</l1>
+
+	<li><abbr>HTML</abbr>, Hypertext Markup Language, and <abbr>CSS</abbr>,
 Cascading Style Sheets, constructs for representing musical scores.
+</l1>
+
 </ol>
 
 <p>
